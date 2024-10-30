@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-
-
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:hive_flutter/hive_flutter.dart';
 import 'package:todolist_bloc_cubit/models/task.dart';
-
 import 'cubits/task_cubit.dart';
 import 'repositories /task_repository.dart';
 import 'screen/home_screen.dart';

@@ -6,7 +6,7 @@ import 'package:uuid/uuid.dart';
 import '../cubits/task_cubit.dart';
 
 class AddTaskScreen extends StatefulWidget {
-  const AddTaskScreen({Key? key}) : super(key: key);
+  const AddTaskScreen({super.key});
 
   @override
   _AddTaskScreenState createState() => _AddTaskScreenState();
